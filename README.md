@@ -137,4 +137,4 @@ pip install numpy pandas matplotlib seaborn Pillow tensorflow scikit-learn
 ## Author
 
 **Syed Ismail N**   
-IIIT Bangalore Assignment — De
+IIIT Bangalore Assignment — 
