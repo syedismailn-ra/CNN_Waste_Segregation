@@ -37,7 +37,7 @@ Automated waste segregation is a critical step in improving recycling efficiency
 
 ```
 ├── CNN_Waste_Segregation_SyedIsmailN.ipynb   # Main notebook
-├── data.zip                                   # Dataset (not tracked)
+├── data.zip                                   # Dataset (https://woolfaws-prod.s3.ap-south-1.amazonaws.com/sharepoint_zips/Dataset_Waste_Segregation.zip)
 └── README.md
 ```
 
