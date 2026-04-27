@@ -2,7 +2,7 @@
 
 A deep learning project that classifies waste images into 7 categories using Convolutional Neural Networks (CNNs) built with TensorFlow/Keras.
 
-> **IIIT Bangalore Assignment** — Deep Learning / Computer Vision
+> **IIIT Bangalore Assignment** - Deep Learning / Computer Vision
 
 ---
 
@@ -67,7 +67,7 @@ Flatten → Dense(256, ReLU) → Dropout(0.4) → Dense(7, Softmax)
 - **Callbacks:** EarlyStopping (patience=5), ReduceLROnPlateau (patience=3)
 
 ### 3. Data Augmentation (optional section)
-Augmented the training set using horizontal flips, rotation (±20°), zoom (15%), and width/height shifts — effectively doubling the training data.
+Augmented the training set using horizontal flips, rotation (±20°), zoom (15%), and width/height shifts - effectively doubling the training data.
 
 ---
 
@@ -79,9 +79,9 @@ Augmented the training set using horizontal flips, rotation (±20°), zoom (15%)
 | CNN + Augmentation | **60.75%**    | 1.1300    |
 
 **Per-class highlights (augmented model):**
-- **Cardboard** — highest precision (0.62); visually distinctive
-- **Plastic** — highest recall (0.79); benefits from large sample size
-- **Glass** — worst recall (0.32); frequently confused with Plastic
+- **Cardboard** - highest precision (0.62); visually distinctive
+- **Plastic** - highest recall (0.79); benefits from large sample size
+- **Glass** - worst recall (0.32); frequently confused with Plastic
 - **Macro F1-score:** 0.51
 
 ---
@@ -97,11 +97,11 @@ Augmented the training set using horizontal flips, rotation (±20°), zoom (15%)
 
 ## Future Work
 
-- **Stronger regularisation** — additional Dropout layers or L2 weight decay to combat overfitting
-- **Larger input resolution** — 128×128 to recover spatial detail lost at 64×64
-- **Transfer learning** — MobileNetV2 or EfficientNetB0 pretrained on ImageNet, expected to push accuracy well above 80%
-- **Class-weighted loss** — penalise misclassification of minority classes (Cardboard, Glass) more heavily
-- **Targeted oversampling** — SMOTE or class-specific augmentation for underrepresented categories
+- **Stronger regularisation** - additional Dropout layers or L2 weight decay to combat overfitting
+- **Larger input resolution** - 128×128 to recover spatial detail lost at 64×64
+- **Transfer learning** - MobileNetV2 or EfficientNetB0 pretrained on ImageNet, expected to push accuracy well above 80%
+- **Class-weighted loss** - penalise misclassification of minority classes (Cardboard, Glass) more heavily
+- **Targeted oversampling** - SMOTE or class-specific augmentation for underrepresented categories
 
 ---
 
